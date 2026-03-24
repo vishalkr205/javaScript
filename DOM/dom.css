@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 50% 25%;
+    gap: 10px;
+    grid-template-areas: 
+                        "nav nav"
+                        "side home"
+                        "foot foot";
+}
+
+.box1{
+    background-color: #91110F;
+    grid-area: nav;
+}
+
+.box2{
+    background-color: #CF1D1D;
+    grid-area: side;
+}
+
+.box3{
+    background-color: #FD2F30;
+    grid-area: home;
+}
+
+.box4{
+    background-color: #FF5859;
+    grid-area: foot;
+}

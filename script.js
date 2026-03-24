@@ -23,3 +23,15 @@
 
 // }
 // console.log("congretulation you won");
+
+
+// let student = {
+//     name:" vishal krishna",
+//     result: " 7.5 CGPA",
+// };
+// let output = `${student.name} resul} is ${student.result}`;
+// console.log(student.name.length); 
+// let marks = student.name + student.result;
+// console.log(marks);
+
+
